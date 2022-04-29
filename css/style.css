@@ -1,0 +1,174 @@
+
+/* RESET */
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+/* body {
+    background-color:#add9e6 ;
+} */
+
+/* COMMON */
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.col-container-bgwhite {
+    background-color: white;
+}
+
+.col-container-bggrey {
+    background-color: #d3d3d3;
+}
+
+/* UTILITY */
+.paddingtop25 {
+    padding-top: 50px;
+}
+
+/* HEADER */
+.header-top-bg {
+    background-color:#255ee9 ; 
+    height:100px;   
+}
+
+
+
+.header-top {
+    display:flex;
+    background-color:#255ee9 ;
+    margin: 15px;
+}
+
+.header-logo,
+nav,
+.login {
+    border: 1px dotted black;
+    padding: 10px;
+}
+
+/* Logo */
+.header-logo {
+    width: 20%; 
+}
+
+/* Nav */
+nav {
+    width: 60%;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    padding: 0 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Login */
+.login {
+    width: 20%;
+    text-align: right;
+}
+
+.header-bottom {
+    display:flex;
+    background-color:#02008b ;
+    /* TEST */
+    height: 600px;
+}
+
+.jumbotron {
+    width: 50%;
+    margin:auto;
+    border: 1px dotted black;
+    background-color:#ee82ee ;
+    height: 450px;
+}
+  
+/* PAGE CENTRAL CONTENT */
+.col-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;  
+}
+
+.col-large {
+    width: 40%;
+    background-color:#1d91ff ;
+    border: 1px dotted black;
+    /* TEST */
+    height: 600px;
+}
+
+.col-tight {
+    width: 30%;
+    background-color: #FEC1CB;
+    border: 1px dotted black;
+    /* TEST */
+    height: 600px;
+}
+
+.col-whole {
+    background-color:#238b21 ;
+    border: 1px dotted black;
+    width: 70%;
+    /* TEST */
+    height: 2000px;  
+}
+
+.col-coral {
+    background-color:#f08080 ;
+    border: 1px dotted black;
+    width: 25%;
+    /* TEST */
+    height: 1400px; 
+}
+
+.col-container-green {
+    display: flex;
+    width: 45%;
+    background-color:#21b2a9;
+}
+.col-green {
+    width: 25%;
+    border: 1px dotted white;
+    /* TEST */
+    height: 1400px; 
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+}
+
+.footer-bottom-container {
+    width: 70%;
+    margin: auto;
+    background-color:#7fffd4 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo,
+.footer-button {
+    border: 1px dotted black;
+    padding: 10px;
+    background-color:#f08080 ;
+    margin: 15px 0;
+}
