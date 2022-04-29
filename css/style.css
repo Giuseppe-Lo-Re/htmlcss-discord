@@ -134,7 +134,7 @@ h1 {
 
 .subsection button {
     background-color:#7289da ;
-    color: white;
+    color:white;
 }
 
 .black-bg {
@@ -164,17 +164,17 @@ h1 {
 .col-large {
     width: 40%;
     /* TEST */
-    background-color:#1d91ff ;
+    /* background-color:#1d91ff ;
     border: 1px dotted black;
-    height: 600px;
+    height: 600px; */
 }
 
 .col-tight {
     width: 30%;
     /* TEST */
-    background-color: #FEC1CB;
+    /* background-color: #FEC1CB;
     border: 1px dotted black;
-    height: 600px;
+    height: 600px; */
 }
 
 .col-whole {
