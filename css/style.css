@@ -260,7 +260,7 @@ i {
 
 .footer-bottom-container {
     width: 70%;
-    margin: 50px auto 0;
+    margin: auto;
     /* background-color:#7fffd4 ; */
     display: flex;
     justify-content: space-between;
@@ -268,10 +268,10 @@ i {
 
 .footer-logo,
 .footer-button {
-    border: 1px dotted black;
+    border: 1px dotted white;
     padding: 10px;
     /* background-color:#f08080 ; */
-    margin: 25px 0;
+    /* margin: 15px 0; */
 }
 
 .footer-button button {
