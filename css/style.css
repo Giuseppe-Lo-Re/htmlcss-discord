@@ -213,7 +213,7 @@ h1 {
     border: 1px dotted black; */
     width: 25%;
     /* TEST */
-    height: 1400px; 
+    height: 400px; 
     
 }
 .col-coral img {
@@ -229,7 +229,7 @@ h1 {
     width: 25%;
     /* border: 1px dotted white; */
     /* TEST */
-    height: 1400px; 
+    /* height: 1400px;  */
 }
 
 footer {
