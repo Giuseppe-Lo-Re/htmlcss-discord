@@ -32,9 +32,14 @@ body {
     color: white;
 }
 
-/* UTILITY */
-.paddingtop25 {
-    padding-top: 50px;
+h2 {
+    font-size: 45px;
+    padding: 25px 50px 35px;
+}
+
+.subtitle-padding-size {
+    padding:0px 50px;
+    font-size: 18px;
 }
 
 
@@ -136,10 +141,9 @@ h1 {
     margin:auto;
     font-size: 20PX;
     padding: 0 30px;
-    /* border: 1px dotted black; */
     height: 450px;
 }
-  
+
 .jumbotron div {
     padding-bottom: 15px;
 }
@@ -154,16 +158,16 @@ h1 {
 
 .col-large {
     width: 40%;
-    background-color:#1d91ff ;
-    border: 1px dotted black;
+    /* background-color:#1d91ff ;
+    border: 1px dotted black; */
     /* TEST */
     height: 600px;
 }
 
 .col-tight {
     width: 30%;
-    background-color: #FEC1CB;
-    border: 1px dotted black;
+    /* background-color: #FEC1CB;
+    border: 1px dotted black; */
     /* TEST */
     height: 600px;
 }
