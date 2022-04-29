@@ -28,29 +28,15 @@ body {
     background-color: #d3d3d3;
 }
 
+.font-white {
+    color: white;
+}
+
 /* UTILITY */
 .paddingtop25 {
     padding-top: 50px;
 }
 
-/* BUTTONS */
-.btn-small {
-    background-color: white;
-    display: inline-block;
-    border-style: solid;
-    border-width: 1px;
-    padding: 10px 15px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-.btn-large {
-    
-}
-
-button {
-    
-}
 
 /* HEADER */
 header {
@@ -66,7 +52,6 @@ header {
 .header-top {
     display:flex;
     background-color:#255ee9 ;
-    margin: 15px;
 }
 
 .header-logo,
@@ -109,19 +94,56 @@ nav {
 
 .header-bottom {
     display:flex;
-    background-color:#02008b ;
-    /* TEST */
-    height: 600px;
+    background-image: url(../img/jumbo.png);
+    background-size:cover ;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 70px 50px 35px;
+}
+
+/* BUTTONS */
+.btn-small {
+    background-color: white;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-large {
+    background-color: white;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    padding: 12px 18px;
+    border-radius: 20px;
+    cursor: pointer; 
+    font-size: 18px;
+}
+
+.black-bg {
+    background-color: black;
 }
 
 .jumbotron {
     width: 50%;
     margin:auto;
-    border: 1px dotted black;
-    background-color:#ee82ee ;
+    font-size: 20PX;
+    padding: 0 30px;
+    /* border: 1px dotted black; */
     height: 450px;
 }
   
+.jumbotron div {
+    padding-bottom: 15px;
+}
+
 /* PAGE CENTRAL CONTENT */
 .col-container {
     display: flex;
@@ -179,9 +201,13 @@ footer {
     background-color: black;
 }
 
+.footer-top-container {
+    border-bottom: 3px solid white;
+}
+
 .footer-bottom-container {
     width: 70%;
-    margin: auto;
+    margin: 50px auto 0;
     background-color:#7fffd4 ;
     display: flex;
     justify-content: space-between;
