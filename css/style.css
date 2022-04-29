@@ -175,9 +175,18 @@ h1 {
 .col-whole {
     width: 70%;
     /* TEST */
-    background-color:#238b21 ;
+    /* background-color:#238b21 ;
     border: 1px dotted black;
-    height: 2000px;  
+    height: 2000px;   */
+}
+
+.col-whole h2 {
+    padding: 25px 33px 35px;
+}
+
+.col-whole div {
+    padding:0px 33px;
+    font-size: 18px;
 }
 
 .col-coral {
