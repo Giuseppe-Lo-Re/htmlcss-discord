@@ -31,6 +31,9 @@ body {
 .font-white {
     color: white;
 }
+.font-blue {
+    color: #7289da;
+}
 
 h2 {
     font-size: 45px;
@@ -40,6 +43,15 @@ h2 {
 .subtitle-padding-size {
     padding:0px 50px;
     font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* HEADER */
@@ -75,20 +87,16 @@ nav {
 }
 
 .menu {
-    list-style-type: none;
     display: flex;
     justify-content: center;
     padding: 10px;
 }
 
 .menu li {
-    padding: 0 10px;
+    padding: 0 9px;
 }
 
-.menu li a {
-    text-decoration: none;
-    color: inherit;
-}
+
 
 /* Login */
 .login {
@@ -198,6 +206,8 @@ h1 {
     font-size: 18px;
 }
 
+
+/* FOOTER */
 .col-coral {
     /* background-color:#f08080 ;
     border: 1px dotted black; */
@@ -213,16 +223,15 @@ h1 {
 .col-container-green {
     display: flex;
     width: 45%;
-    background-color:#21b2a9;
+    /* background-color:#21b2a9; */
 }
 .col-green {
     width: 25%;
-    border: 1px dotted white;
+    /* border: 1px dotted white; */
     /* TEST */
     height: 1400px; 
 }
 
-/* FOOTER */
 footer {
     background-color: black;
 }
@@ -238,9 +247,15 @@ footer h2 {
     border-bottom: 3px solid white;
 }
 
-
 i {
     padding: 5px;
+}
+
+.footer-menu {
+    padding: 30px 15px;
+    font-size: 14px;
+    line-height: 200%;
+    color: white;
 }
 
 .footer-bottom-container {
