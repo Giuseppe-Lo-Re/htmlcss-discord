@@ -158,25 +158,25 @@ h1 {
 
 .col-large {
     width: 40%;
-    /* background-color:#1d91ff ;
-    border: 1px dotted black; */
     /* TEST */
+    background-color:#1d91ff ;
+    border: 1px dotted black;
     height: 600px;
 }
 
 .col-tight {
     width: 30%;
-    /* background-color: #FEC1CB;
-    border: 1px dotted black; */
     /* TEST */
+    background-color: #FEC1CB;
+    border: 1px dotted black;
     height: 600px;
 }
 
 .col-whole {
-    background-color:#238b21 ;
-    border: 1px dotted black;
     width: 70%;
     /* TEST */
+    background-color:#238b21 ;
+    border: 1px dotted black;
     height: 2000px;  
 }
 
