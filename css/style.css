@@ -139,6 +139,10 @@ h1 {
     font-size: 18px;
 }
 
+.header-bottom button {
+    margin-right: 15px;
+}
+
 .subsection button {
     background-color:#7289da ;
     color:white;
@@ -247,7 +251,7 @@ footer h2 {
     border-bottom: 3px solid #7289da;
 }
 
-i {
+footer i {
     padding: 5px;
 }
 
