@@ -224,6 +224,11 @@ footer {
     background-color: black;
 }
 
+footer h2 {
+    font-size: 35px;
+    color: #7289da;
+}
+
 .footer-top-container {
     border-bottom: 3px solid white;
 }
