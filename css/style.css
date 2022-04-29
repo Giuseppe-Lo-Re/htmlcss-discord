@@ -139,6 +139,10 @@ h1 {
     font-size: 18px;
 }
 
+.btn-large i {
+    padding-right: 5px;
+}
+
 .header-bottom button {
     margin-right: 15px;
 }
