@@ -132,6 +132,10 @@ h1 {
     font-size: 18px;
 }
 
+.subsection button {
+    background-color:#7289da ;
+}
+
 .black-bg {
     background-color: black;
 }
