@@ -42,7 +42,6 @@ h2 {
     font-size: 18px;
 }
 
-
 /* HEADER */
 header {
     color: white;
@@ -200,11 +199,15 @@ h1 {
 }
 
 .col-coral {
-    background-color:#f08080 ;
-    border: 1px dotted black;
+    /* background-color:#f08080 ;
+    border: 1px dotted black; */
     width: 25%;
     /* TEST */
     height: 1400px; 
+    
+}
+.col-coral img {
+    width: 7%;
 }
 
 .col-container-green {
@@ -226,11 +229,18 @@ footer {
 
 footer h2 {
     font-size: 35px;
+    padding-left: 0px;
+    padding-right: 0px;
     color: #7289da;
 }
 
 .footer-top-container {
     border-bottom: 3px solid white;
+}
+
+
+i {
+    padding: 5px;
 }
 
 .footer-bottom-container {
