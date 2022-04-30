@@ -202,8 +202,17 @@ h1 {
 
 .subsection {
     text-align: center;
+/*     
+    
+        */
 }
 
+.bg-container {
+    background-image: url(../img/stars.svg);
+    background-size:97%;
+    background-repeat: no-repeat;
+
+}
 
 .col-whole h2 {
     padding: 25px 33px 35px;
@@ -276,7 +285,7 @@ footer i {
 
 .footer-logo,
 .footer-button {
-    border: 1px dotted white;
+    /* border: 1px dotted white; */
     padding: 10px;
     /* background-color:#f08080 ; */
     /* margin: 15px 0; */
@@ -284,4 +293,8 @@ footer i {
 
 .footer-button button {
     background-color:#7289da ;
+}
+
+.border-container {
+    border: 5px solid red;
 }
