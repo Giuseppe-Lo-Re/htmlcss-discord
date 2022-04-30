@@ -225,12 +225,20 @@ h1 {
 
 
 /* FOOTER */
+.footer-col-container {
+    padding: 60px 0px 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
 .col-coral {
     /* background-color:#f08080 ;
     border: 1px dotted black; */
     width: 25%;
+
     /* TEST */
-    height: 400px; 
+    /* height: 400px;  */
     
 }
 .col-coral img {
@@ -261,7 +269,7 @@ footer h2 {
 }
 
 .footer-top-container {
-    border-bottom: 3px solid #7289da;
+    /* border-bottom: 1px solid #7289da; */
 }
 
 footer i {
@@ -269,7 +277,7 @@ footer i {
 }
 
 .footer-menu {
-    padding: 30px 15px;
+    padding: 30px 15px 0 px;
     font-size: 14px;
     line-height: 200%;
     color: white;
@@ -281,12 +289,13 @@ footer i {
     /* background-color:#7fffd4 ; */
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid #7289da;
 }
 
 .footer-logo,
 .footer-button {
     /* border: 1px dotted white; */
-    padding: 10px;
+    padding: 20px;
     /* background-color:#f08080 ; */
     /* margin: 15px 0; */
 }
