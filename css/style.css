@@ -57,6 +57,11 @@ li a {
     font-weight: 900;
 }
 
+.wave {
+    background-image: url(../img/wave.svg);
+    height: 20%;
+}
+
 /* HEADER */
 header {
     color: white;
@@ -227,6 +232,10 @@ h1 {
 
 .col-coral img {
     width: 7%;
+}
+
+.col-coral h2 {
+    padding-top: 2px;
 }
 
 .col-container-green {
